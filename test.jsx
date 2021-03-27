@@ -1,4 +1,9 @@
+function hello() {
+  return ( <h1>Hello, world2!</h1>
+    )
+}
+
 ReactDOM.render(
-  <h1>Hello, world2!</h1>,
+  new hello(),
   document.getElementById('root')
 );
